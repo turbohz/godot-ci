@@ -1,4 +1,4 @@
-FROM ubuntu:cosmic
+FROM ubuntu:focal
 LABEL author="artur@barichello.me"
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
